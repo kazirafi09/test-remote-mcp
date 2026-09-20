@@ -11,6 +11,9 @@ dependencies = [
     "fastmcp>=4.0.5",
 ]
 
+[tool.uv]
+package = false
+
 [project.scripts]
 test-remote-server = "test_remote_server:main"
 
